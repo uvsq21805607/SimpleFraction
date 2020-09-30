@@ -1,8 +1,7 @@
-import java.util.Scanner;
-import java.awt.Color;
+
 import java.awt.*;
 import java.util.*;
-import java.util.ArrayList;
+
 
 public class fraction{
 
@@ -17,12 +16,11 @@ public class fraction{
 		this.res = res;
 	}
 
-
 	@Override
 
 	public String toString(){
 
-		return op1 + " + " + op2 + " = " + res;
+		return op1 + " +  " + op2 + " = " + res;
 	}
 
 }
