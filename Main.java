@@ -8,7 +8,7 @@ public class Main {
 
 	public static void main(String[] args){
 
-		 System.out.println(" La fraction : \n ");
+		 System.out.println(" Addition : \n ");
 
 		 fraction f = new fraction("1", "1", "2");
 
