@@ -18,7 +18,7 @@ public class Main {
 
 		 System.out.println(" Numerateur = " + M.toString() + "\n");
 
-		 System.out.println(" Denumerateur = " + L.toString()+ "\n");
+		 System.out.println(" Denominateur = " + L.toString()+ "\n");
 
 		 System.out.println(" Resultat de la multiplication = \n " + c.toString()+ "\n");
 
