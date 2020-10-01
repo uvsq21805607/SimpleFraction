@@ -1,6 +1,7 @@
 
 import java.awt.*;
 import java.util.*;
+import java.util.Scanner;
 
 
 public class Main {
@@ -8,12 +9,18 @@ public class Main {
 
 	public static void main(String[] args){
 
-		 System.out.println(" Addition : \n ");
+		fraction M = new fraction(9, 4);
+		fraction L = new fraction(1,9);
 
-		 fraction f = new fraction("1", "1", "2");
+		fraction c = L.multiplication(M);
 
+		 System.out.println(" Multiplication : \n ");
 
-		 System.out.println( f.toString());
+		 System.out.println(" Numerateur = " + M.toString() + "\n");
+
+		 System.out.println(" Denumerateur = " + L.toString()+ "\n");
+
+		 System.out.println(" Resultat de la multiplication = \n " + c.toString()+ "\n");
 
 
 	} 

@@ -5,22 +5,33 @@ import java.util.*;
 
 public class fraction{
 
-	private String op1;
-	private String op2;
-	private String res;
+	private int num;
+	private int denum;
 
-	public fraction(String op1, String op2, String res){
+	public fraction(int num, int denum){
 
-		this.op1 = op1;
-		this.op2 = op2;
-		this.res = res;
+		this.num = num;
+		this.denum = denum;
+		
+		
+	}
+	
+	public fraction multiplication(fraction A){
+
+		int a = this.num * A.num;
+		int b = this.denum * A.denum;
+
+		return new fraction(a,b);
 	}
 
-	@Override
+
+
+	
+@Override
 
 	public String toString(){
 
-		return op1 + " +  " + op2 + " = " + res;
+		return num + " / " + denum;
 	}
 
 }
