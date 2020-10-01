@@ -5,21 +5,21 @@ import java.util.*;
 
 public class fraction{
 
-	private int num;
-	private int denum;
+	private int nume;
+	private int denom;
 
-	public fraction(int num, int denum){
+	public fraction(int nume, int denom){
 
-		this.num = num;
-		this.denum = denum;
+		this.nume = nume;
+		this.denom = denom;
 		
 		
 	}
 	
 	public fraction multiplication(fraction A){
 
-		int a = this.num * A.num;
-		int b = this.denum * A.denum;
+		int a = this.nume * A.nume;
+		int b = this.denom * A.denom;
 
 		return new fraction(a,b);
 	}
@@ -31,7 +31,7 @@ public class fraction{
 
 	public String toString(){
 
-		return num + " / " + denum;
+		return nume + " / " + denom;
 	}
 
 }
