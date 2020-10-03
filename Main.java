@@ -16,9 +16,9 @@ public class Main {
 
 		 System.out.println(" Multiplication : \n ");
 
-		 System.out.println(" Numerateur = " + M.toString() + "\n");
+		 System.out.println(" fraction 1 = " + M.toString() + "\n");
 
-		 System.out.println(" Denominateur = " + L.toString()+ "\n");
+		 System.out.println(" fraction 2 = " + L.toString()+ "\n");
 
 		 System.out.println(" Resultat de la multiplication = \n " + c.toString()+ "\n");
 
