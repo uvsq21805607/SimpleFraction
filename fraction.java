@@ -16,22 +16,20 @@ public class fraction{
 		
 	}
 	
+	@Override
+
+	public String toString(){
+
+		return nume + " / " + denom;
+	}
+
+
 	public fraction multiplication(fraction A){
 
 		int a = this.nume * A.nume;
 		int b = this.denom * A.denom;
 
 		return new fraction(a,b);
-	}
-
-
-
-	
-@Override
-
-	public String toString(){
-
-		return nume + " / " + denom;
 	}
 
 }
